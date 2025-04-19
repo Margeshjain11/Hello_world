@@ -31,9 +31,9 @@ def get_video_frame_total(video_path: str) -> int:
 
 # Example usage:
 if __name__ == "__main__":
-    video_path = "C:\\Users\\jainm\\Downloads\\video for testing .mp4"  # Replace with your actual video file path
-    frame_number = 10  # Change this to the frame number you want to extract
-
+    video_path = "your video path"  # Replace with your actual video file path
+    frame_number = ("no of frame")
+    
     # Get the total number of frames in the video
     total_frames = get_video_frame_total(video_path)
     print(f"Total frames in the video: {total_frames}")
